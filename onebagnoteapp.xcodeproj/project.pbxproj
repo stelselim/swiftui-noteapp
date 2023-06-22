@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */; };
-		4293CD9B2A44C7C30032A5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD9A2A44C7C30032A5CB /* ContentView.swift */; };
 		4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9C2A44C7C50032A5CB /* Assets.xcassets */; };
 		4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */; };
 		4293CDAA2A44C7C50032A5CB /* onebagnoteappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDA92A44C7C50032A5CB /* onebagnoteappTests.swift */; };
 		4293CDB42A44C7C50032A5CB /* onebagnoteappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDB32A44C7C50032A5CB /* onebagnoteappUITests.swift */; };
 		4293CDB62A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */; };
+		4293CDC72A44C9550032A5CB /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDC62A44C9550032A5CB /* HomeScreen.swift */; };
+		4293CDD12A44CF4F0032A5CB /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDD02A44CF4F0032A5CB /* SettingsScreen.swift */; };
+		4293CDE22A44D2E70032A5CB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4293CDE42A44D2E70032A5CB /* Localizable.strings */; };
+		4293CDE72A44D3700032A5CB /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDE62A44D3700032A5CB /* constant.swift */; };
+		4293CDE92A44D3F50032A5CB /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDE82A44D3F50032A5CB /* SettingsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		4293CD952A44C7C30032A5CB /* onebagnoteapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onebagnoteapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappApp.swift; sourceTree = "<group>"; };
-		4293CD9A2A44C7C30032A5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4293CD9C2A44C7C50032A5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4293CDA52A44C7C50032A5CB /* onebagnoteappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onebagnoteappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,12 @@
 		4293CDAF2A44C7C50032A5CB /* onebagnoteappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onebagnoteappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4293CDB32A44C7C50032A5CB /* onebagnoteappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappUITests.swift; sourceTree = "<group>"; };
 		4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4293CDC62A44C9550032A5CB /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4293CDD02A44CF4F0032A5CB /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		4293CDE32A44D2E70032A5CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4293CDE52A44D2EC0032A5CB /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4293CDE62A44D3700032A5CB /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		4293CDE82A44D3F50032A5CB /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +103,13 @@
 		4293CD972A44C7C30032A5CB /* onebagnoteapp */ = {
 			isa = PBXGroup;
 			children = (
+				4293CDCC2A44CE1D0032A5CB /* Languages */,
+				4293CDC92A44CCA20032A5CB /* Extension */,
+				4293CDC82A44CC780032A5CB /* Services */,
+				4293CDC52A44C9260032A5CB /* Components */,
+				4293CDC22A44C9100032A5CB /* Screens */,
 				4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */,
-				4293CD9A2A44C7C30032A5CB /* ContentView.swift */,
+				4293CDE62A44D3700032A5CB /* constant.swift */,
 				4293CD9C2A44C7C50032A5CB /* Assets.xcassets */,
 				4293CD9E2A44C7C50032A5CB /* Preview Content */,
 			);
@@ -125,6 +139,69 @@
 				4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */,
 			);
 			path = onebagnoteappUITests;
+			sourceTree = "<group>";
+		};
+		4293CDC22A44C9100032A5CB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDCF2A44CF400032A5CB /* Settings */,
+				4293CDC42A44C91E0032A5CB /* Note */,
+				4293CDC32A44C9160032A5CB /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4293CDC32A44C9160032A5CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDC62A44C9550032A5CB /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4293CDC42A44C91E0032A5CB /* Note */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		4293CDC52A44C9260032A5CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4293CDC82A44CC780032A5CB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDE82A44D3F50032A5CB /* SettingsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4293CDC92A44CCA20032A5CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4293CDCC2A44CE1D0032A5CB /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDE42A44D2E70032A5CB /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		4293CDCF2A44CF400032A5CB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDD02A44CF4F0032A5CB /* SettingsScreen.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +289,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				tr,
 			);
 			mainGroup = 4293CD8C2A44C7C30032A5CB;
 			productRefGroup = 4293CD962A44C7C30032A5CB /* Products */;
@@ -232,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */,
+				4293CDE22A44D2E70032A5CB /* Localizable.strings in Resources */,
 				4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4293CD9B2A44C7C30032A5CB /* ContentView.swift in Sources */,
+				4293CDD12A44CF4F0032A5CB /* SettingsScreen.swift in Sources */,
+				4293CDE92A44D3F50032A5CB /* SettingsManager.swift in Sources */,
+				4293CDC72A44C9550032A5CB /* HomeScreen.swift in Sources */,
 				4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */,
+				4293CDE72A44D3700032A5CB /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +374,18 @@
 			targetProxy = 4293CDB02A44C7C50032A5CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4293CDE42A44D2E70032A5CB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4293CDE32A44D2E70032A5CB /* en */,
+				4293CDE52A44D2EC0032A5CB /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4293CDB72A44C7C50032A5CB /* Debug */ = {

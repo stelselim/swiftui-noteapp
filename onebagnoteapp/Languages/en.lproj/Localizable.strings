@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  onebagnoteapp
+
+  Created by Selim Üstel on 22.06.2023.
+  
+*/
+
+"notes" = "Notes";
+"my_note" = "My Notes";
+"language" = "Language";
+"settings" = "Settings";

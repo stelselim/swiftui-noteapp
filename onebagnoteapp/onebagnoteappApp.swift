@@ -11,7 +11,17 @@ import SwiftUI
 struct onebagnoteappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                HomeScreen()
+                    .tabItem{
+                        Text(String(localized: "notes"))
+                    }
+                SettingsScreen()
+                    .tabItem{
+                        Text(String(localized: "settings"))
+                    }
+            }
+            
         }
     }
 }
