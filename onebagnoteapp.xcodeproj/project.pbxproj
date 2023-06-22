@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */; };
+		4293CD9B2A44C7C30032A5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD9A2A44C7C30032A5CB /* ContentView.swift */; };
+		4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9C2A44C7C50032A5CB /* Assets.xcassets */; };
+		4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */; };
+		4293CDAA2A44C7C50032A5CB /* onebagnoteappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDA92A44C7C50032A5CB /* onebagnoteappTests.swift */; };
+		4293CDB42A44C7C50032A5CB /* onebagnoteappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDB32A44C7C50032A5CB /* onebagnoteappUITests.swift */; };
+		4293CDB62A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4293CDA62A44C7C50032A5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4293CD8D2A44C7C30032A5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4293CD942A44C7C30032A5CB;
+			remoteInfo = onebagnoteapp;
+		};
+		4293CDB02A44C7C50032A5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4293CD8D2A44C7C30032A5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4293CD942A44C7C30032A5CB;
+			remoteInfo = onebagnoteapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4293CD952A44C7C30032A5CB /* onebagnoteapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onebagnoteapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappApp.swift; sourceTree = "<group>"; };
+		4293CD9A2A44C7C30032A5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4293CD9C2A44C7C50032A5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4293CDA52A44C7C50032A5CB /* onebagnoteappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onebagnoteappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4293CDA92A44C7C50032A5CB /* onebagnoteappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappTests.swift; sourceTree = "<group>"; };
+		4293CDAF2A44C7C50032A5CB /* onebagnoteappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onebagnoteappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4293CDB32A44C7C50032A5CB /* onebagnoteappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappUITests.swift; sourceTree = "<group>"; };
+		4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4293CD922A44C7C30032A5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDA22A44C7C50032A5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDAC2A44C7C50032A5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4293CD8C2A44C7C30032A5CB = {
+			isa = PBXGroup;
+			children = (
+				4293CD972A44C7C30032A5CB /* onebagnoteapp */,
+				4293CDA82A44C7C50032A5CB /* onebagnoteappTests */,
+				4293CDB22A44C7C50032A5CB /* onebagnoteappUITests */,
+				4293CD962A44C7C30032A5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4293CD962A44C7C30032A5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4293CD952A44C7C30032A5CB /* onebagnoteapp.app */,
+				4293CDA52A44C7C50032A5CB /* onebagnoteappTests.xctest */,
+				4293CDAF2A44C7C50032A5CB /* onebagnoteappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4293CD972A44C7C30032A5CB /* onebagnoteapp */ = {
+			isa = PBXGroup;
+			children = (
+				4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */,
+				4293CD9A2A44C7C30032A5CB /* ContentView.swift */,
+				4293CD9C2A44C7C50032A5CB /* Assets.xcassets */,
+				4293CD9E2A44C7C50032A5CB /* Preview Content */,
+			);
+			path = onebagnoteapp;
+			sourceTree = "<group>";
+		};
+		4293CD9E2A44C7C50032A5CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4293CDA82A44C7C50032A5CB /* onebagnoteappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDA92A44C7C50032A5CB /* onebagnoteappTests.swift */,
+			);
+			path = onebagnoteappTests;
+			sourceTree = "<group>";
+		};
+		4293CDB22A44C7C50032A5CB /* onebagnoteappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4293CDB32A44C7C50032A5CB /* onebagnoteappUITests.swift */,
+				4293CDB52A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift */,
+			);
+			path = onebagnoteappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4293CD942A44C7C30032A5CB /* onebagnoteapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4293CDB92A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteapp" */;
+			buildPhases = (
+				4293CD912A44C7C30032A5CB /* Sources */,
+				4293CD922A44C7C30032A5CB /* Frameworks */,
+				4293CD932A44C7C30032A5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onebagnoteapp;
+			productName = onebagnoteapp;
+			productReference = 4293CD952A44C7C30032A5CB /* onebagnoteapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4293CDA42A44C7C50032A5CB /* onebagnoteappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4293CDBC2A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteappTests" */;
+			buildPhases = (
+				4293CDA12A44C7C50032A5CB /* Sources */,
+				4293CDA22A44C7C50032A5CB /* Frameworks */,
+				4293CDA32A44C7C50032A5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4293CDA72A44C7C50032A5CB /* PBXTargetDependency */,
+			);
+			name = onebagnoteappTests;
+			productName = onebagnoteappTests;
+			productReference = 4293CDA52A44C7C50032A5CB /* onebagnoteappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4293CDAE2A44C7C50032A5CB /* onebagnoteappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4293CDBF2A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteappUITests" */;
+			buildPhases = (
+				4293CDAB2A44C7C50032A5CB /* Sources */,
+				4293CDAC2A44C7C50032A5CB /* Frameworks */,
+				4293CDAD2A44C7C50032A5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4293CDB12A44C7C50032A5CB /* PBXTargetDependency */,
+			);
+			name = onebagnoteappUITests;
+			productName = onebagnoteappUITests;
+			productReference = 4293CDAF2A44C7C50032A5CB /* onebagnoteappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4293CD8D2A44C7C30032A5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4293CD942A44C7C30032A5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4293CDA42A44C7C50032A5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4293CD942A44C7C30032A5CB;
+					};
+					4293CDAE2A44C7C50032A5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4293CD942A44C7C30032A5CB;
+					};
+				};
+			};
+			buildConfigurationList = 4293CD902A44C7C30032A5CB /* Build configuration list for PBXProject "onebagnoteapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4293CD8C2A44C7C30032A5CB;
+			productRefGroup = 4293CD962A44C7C30032A5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4293CD942A44C7C30032A5CB /* onebagnoteapp */,
+				4293CDA42A44C7C50032A5CB /* onebagnoteappTests */,
+				4293CDAE2A44C7C50032A5CB /* onebagnoteappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4293CD932A44C7C30032A5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */,
+				4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDA32A44C7C50032A5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDAD2A44C7C50032A5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4293CD912A44C7C30032A5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CD9B2A44C7C30032A5CB /* ContentView.swift in Sources */,
+				4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDA12A44C7C50032A5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CDAA2A44C7C50032A5CB /* onebagnoteappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4293CDAB2A44C7C50032A5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4293CDB62A44C7C50032A5CB /* onebagnoteappUITestsLaunchTests.swift in Sources */,
+				4293CDB42A44C7C50032A5CB /* onebagnoteappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4293CDA72A44C7C50032A5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4293CD942A44C7C30032A5CB /* onebagnoteapp */;
+			targetProxy = 4293CDA62A44C7C50032A5CB /* PBXContainerItemProxy */;
+		};
+		4293CDB12A44C7C50032A5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4293CD942A44C7C30032A5CB /* onebagnoteapp */;
+			targetProxy = 4293CDB02A44C7C50032A5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4293CDB72A44C7C50032A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4293CDB82A44C7C50032A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4293CDBA2A44C7C50032A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onebagnoteapp/Preview Content\"";
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4293CDBB2A44C7C50032A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"onebagnoteapp/Preview Content\"";
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4293CDBD2A44C7C50032A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onebagnoteapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onebagnoteapp";
+			};
+			name = Debug;
+		};
+		4293CDBE2A44C7C50032A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onebagnoteapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onebagnoteapp";
+			};
+			name = Release;
+		};
+		4293CDC02A44C7C50032A5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onebagnoteapp;
+			};
+			name = Debug;
+		};
+		4293CDC12A44C7C50032A5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QH78WN2XWN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onebagnoteapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4293CD902A44C7C30032A5CB /* Build configuration list for PBXProject "onebagnoteapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4293CDB72A44C7C50032A5CB /* Debug */,
+				4293CDB82A44C7C50032A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4293CDB92A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4293CDBA2A44C7C50032A5CB /* Debug */,
+				4293CDBB2A44C7C50032A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4293CDBC2A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4293CDBD2A44C7C50032A5CB /* Debug */,
+				4293CDBE2A44C7C50032A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4293CDBF2A44C7C50032A5CB /* Build configuration list for PBXNativeTarget "onebagnoteappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4293CDC02A44C7C50032A5CB /* Debug */,
+				4293CDC12A44C7C50032A5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4293CD8D2A44C7C30032A5CB /* Project object */;
+}
