@@ -8,27 +8,69 @@
 import SwiftUI
 
 struct SettingsScreen: View {
-    @State var language = SettingsManager().getLanguage()
+    @ObservedObject var appState: AppState
+    @State var language = SettingsManager().getPreferredLanguage()
     
     var body: some View {
         NavigationView{
             List{
                 Section{
-                    Picker(String(localized: "language"), selection: $language){
+                    Picker("language", selection: $language){
                         ForEach(appLaunguages, id: \.self){ lang in
                             Text(lang)
                         }
                     }
+                    .onChange(of: language){ val in
+                        SettingsManager().setPreferredLanguage(lang: val)
+                        appState.updateLanguage()
+                    }
+                    
+                    HStack{
+                        Text("font_size")
+                        Spacer()
+                        Image(systemName: "minus.circle")
+                            .resizable()
+                            .frame(width: 18, height: 18)
+                            .onTapGesture {
+                                SettingsManager().decreaseFontSize()
+                                appState.updateFontSize()
+                            }
+                        Text("\(appState.appFontSize)")
+                        Image(systemName: "plus.circle")
+                            .resizable()
+                            .frame(width: 18, height: 18)
+                            .onTapGesture {
+                                SettingsManager().increaseFontSize()
+                                appState.updateFontSize()
+                            }
+                        
+                    }
+                    
+                }
+                Section {
+                    HStack{
+                        Text("total_note")
+                        Spacer()
+                        Text("\(appState.totalNoteCount)")
+                    }
+                    
+                    HStack{
+                        Text("last_note_update")
+                        Spacer()
+                        Text("\(appState.lastUpdateDate.getFormattedDate())")
+                    }
+                }
+
+                Section {
+                    HStack{
+                        Text("app_version")
+                        Spacer()
+                        Text("\(appState.appVersion)")
+                    }
                 }
             }
             .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle(NSLocalizedString("settings", comment: "App's Settings"))
+            .navigationTitle("settings")
         }
-    }
-}
-
-struct SettingsScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsScreen()
     }
 }

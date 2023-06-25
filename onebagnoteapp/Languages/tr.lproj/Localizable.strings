@@ -10,3 +10,7 @@
 "my_note" = "Notlarim";
 "language" = "Dil Tercihlerim";
 "settings" = "Ayarlar";
+"font_size" = "Karakter Boyutu";
+"total_note" = "Toplam Not Sayisi";
+"last_note_update" = "Son Not Guncelleme";
+"app_version" = "Uygulama Surumu";

@@ -10,3 +10,7 @@
 "my_note" = "My Notes";
 "language" = "Language";
 "settings" = "Settings";
+"font_size" = "Font Size";
+"total_note" = "Note Count";
+"last_note_update" = "Last Note Update";
+"app_version" = "App Version";

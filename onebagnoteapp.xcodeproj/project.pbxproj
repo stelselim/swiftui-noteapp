@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426613382A48506000C3FBDB /* localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426613372A48506000C3FBDB /* localization.swift */; };
+		4266133B2A4855B800C3FBDB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266133A2A4855B800C3FBDB /* AppState.swift */; };
+		4266133D2A485E0200C3FBDB /* date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266133C2A485E0200C3FBDB /* date.swift */; };
+		426BBA542A489DD700EAEA7F /* NoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA532A489DD700EAEA7F /* NoteManager.swift */; };
+		426BBA572A489DFA00EAEA7F /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA562A489DFA00EAEA7F /* NoteModel.swift */; };
 		4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */; };
 		4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9C2A44C7C50032A5CB /* Assets.xcassets */; };
 		4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		426613372A48506000C3FBDB /* localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localization.swift; sourceTree = "<group>"; };
+		4266133A2A4855B800C3FBDB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4266133C2A485E0200C3FBDB /* date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = date.swift; sourceTree = "<group>"; };
+		426BBA532A489DD700EAEA7F /* NoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteManager.swift; sourceTree = "<group>"; };
+		426BBA562A489DFA00EAEA7F /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 		4293CD952A44C7C30032A5CB /* onebagnoteapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onebagnoteapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappApp.swift; sourceTree = "<group>"; };
 		4293CD9C2A44C7C50032A5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		426613392A4855AE00C3FBDB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4266133A2A4855B800C3FBDB /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		426BBA552A489DE800EAEA7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				426BBA562A489DFA00EAEA7F /* NoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4293CD8C2A44C7C30032A5CB = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +129,9 @@
 		4293CD972A44C7C30032A5CB /* onebagnoteapp */ = {
 			isa = PBXGroup;
 			children = (
+				426BBA552A489DE800EAEA7F /* Models */,
 				4293CDCC2A44CE1D0032A5CB /* Languages */,
+				426613392A4855AE00C3FBDB /* State */,
 				4293CDC92A44CCA20032A5CB /* Extension */,
 				4293CDC82A44CC780032A5CB /* Services */,
 				4293CDC52A44C9260032A5CB /* Components */,
@@ -177,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				4293CDE82A44D3F50032A5CB /* SettingsManager.swift */,
+				426BBA532A489DD700EAEA7F /* NoteManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -184,6 +213,8 @@
 		4293CDC92A44CCA20032A5CB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				426613372A48506000C3FBDB /* localization.swift */,
+				4266133C2A485E0200C3FBDB /* date.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -337,7 +368,12 @@
 			files = (
 				4293CDD12A44CF4F0032A5CB /* SettingsScreen.swift in Sources */,
 				4293CDE92A44D3F50032A5CB /* SettingsManager.swift in Sources */,
+				426613382A48506000C3FBDB /* localization.swift in Sources */,
+				426BBA542A489DD700EAEA7F /* NoteManager.swift in Sources */,
+				4266133D2A485E0200C3FBDB /* date.swift in Sources */,
+				426BBA572A489DFA00EAEA7F /* NoteModel.swift in Sources */,
 				4293CDC72A44C9550032A5CB /* HomeScreen.swift in Sources */,
+				4266133B2A4855B800C3FBDB /* AppState.swift in Sources */,
 				4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */,
 				4293CDE72A44D3700032A5CB /* constant.swift in Sources */,
 			);
@@ -522,7 +558,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -551,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stel.onebagnoteapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

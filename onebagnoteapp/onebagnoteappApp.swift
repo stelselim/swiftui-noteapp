@@ -9,19 +9,23 @@ import SwiftUI
 
 @main
 struct onebagnoteappApp: App {
+    @StateObject var appState = AppState()
+    
     var body: some Scene {
         WindowGroup {
             TabView{
-                HomeScreen()
+                HomeScreen(appState: appState)
                     .tabItem{
-                        Text(String(localized: "notes"))
+                        Text("notes")
                     }
-                SettingsScreen()
+                SettingsScreen(appState: appState)
                     .tabItem{
-                        Text(String(localized: "settings"))
+                        Text("settings")
                     }
             }
-            
+            .font(.system(size: CGFloat(appState.appFontSize)))
+            .environmentObject(appState)
+            .environment(\.locale, appState.appLanguage)
         }
     }
 }

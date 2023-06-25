@@ -8,20 +8,15 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    @ObservedObject var appState: AppState
+    
     var body: some View {
         NavigationView{
             VStack{
                 
             }
-            .navigationTitle(NSLocalizedString("my_note",comment: "The notes section header"))
+            .navigationTitle("my_note")
             .navigationBarTitleDisplayMode(.inline)
-
         }
-    }
-}
-
-struct HomeScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeScreen()
     }
 }

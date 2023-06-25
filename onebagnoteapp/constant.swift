@@ -8,3 +8,8 @@
 import Foundation
 
 let appLaunguages: [String] = ["English", "Turkish"]
+
+let appLaungageDict:[String:String] = [
+    "English":"en",
+    "Turkish":"tr"
+]
