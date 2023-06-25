@@ -10,17 +10,21 @@ import Foundation
 class AppState: ObservableObject{
     @Published var appLanguage: Locale
     @Published var appFontSize: Int
-    @Published var totalNoteCount: Int
     @Published var lastUpdateDate: Date
     @Published var appVersion: String
+    @Published var notes: [NoteModel]
 
     
     init() {
         self.appLanguage = Locale.getCustomLocale()
         self.appFontSize = SettingsManager().getPrefferedFontSize()
-        self.totalNoteCount = 0
         self.lastUpdateDate = Date()
         self.appVersion = SettingsManager().appVersion
+        self.notes = NoteManager().getNotes()
+    }
+    
+    func updateNotes(){
+        self.notes = NoteManager().getNotes()
     }
     
     func updateLanguage(){

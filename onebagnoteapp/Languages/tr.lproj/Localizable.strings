@@ -14,3 +14,9 @@
 "total_note" = "Toplam Not Sayisi";
 "last_note_update" = "Son Not Guncelleme";
 "app_version" = "Uygulama Surumu";
+"enter_title" = "Baslik";
+"enter_message" = "Icerik";
+"title" = "Baslik";
+"message" = "Icerik";
+"edit" = "Duzenle";
+"done" = "Bitir";

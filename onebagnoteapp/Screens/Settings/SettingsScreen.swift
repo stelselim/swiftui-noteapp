@@ -51,13 +51,13 @@ struct SettingsScreen: View {
                     HStack{
                         Text("total_note")
                         Spacer()
-                        Text("\(appState.totalNoteCount)")
+                        Text("\(appState.notes.count)")
                     }
                     
                     HStack{
                         Text("last_note_update")
                         Spacer()
-                        Text("\(appState.lastUpdateDate.getFormattedDate())")
+                        Text("\(NoteManager().getLastUpdateDate().getFormattedDate())")
                     }
                 }
 

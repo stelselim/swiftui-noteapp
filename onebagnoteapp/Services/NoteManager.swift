@@ -11,6 +11,12 @@ class NoteManager {
     private let noteDefaultKey = "notePrefferencesKey"
     let userDefault = UserDefaults.standard
     
+    
+    func getLastUpdateDate()->Date{
+        let notes = getNotes()
+        return notes.map{ $0.lastUpdateDate}.sorted().last ?? Date()
+    }
+    
     func addNewNote(note: NoteModel){
         var res = getNotes()
         res.append(note)
@@ -36,13 +42,11 @@ class NoteManager {
         return []
     }
 
-    func updateNote(id:UUID, title:String, message:String){
-        var notes = getNotes()
+    func updateNote(id:UUID, title:String?, message:String?){
+        let notes = getNotes()
         for i in 0..<notes.count{
             if notes[i].id == id {
-                notes[i].title = title
-                notes[i].message = message
-                notes[i].lastUpdateDate = Date()
+                notes[i].update(title: title, message: message)
             }
         }
         do{
@@ -50,8 +54,29 @@ class NoteManager {
             userDefault.set(encodedData, forKey: noteDefaultKey)
         }
         catch{
-            print("Error occured in setNotes")
+            print("Error occured in updateNote")
+        }
+    }
+    
+    func deleteNote(id:UUID){
+        var notes = getNotes()
+        var index = -1
+        for i in 0..<notes.count{
+            if notes[i].id == id {
+                index = i
+            }
+        }
+        if index == -1 {
+            return
         }
         
+        do{
+            notes.remove(at: index)
+            let encodedData = try JSONEncoder().encode(notes)
+            userDefault.set(encodedData, forKey: noteDefaultKey)
+        }
+        catch{
+            print("Error occured in deleteNote")
+        }
     }
 }

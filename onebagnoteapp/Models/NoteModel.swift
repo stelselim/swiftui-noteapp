@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NoteModel: Codable, Identifiable{
+class NoteModel: Codable, Identifiable, ObservableObject{
     let id: UUID
     var title: String
     var message: String

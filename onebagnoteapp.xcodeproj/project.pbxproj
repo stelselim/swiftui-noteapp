@@ -12,6 +12,9 @@
 		4266133D2A485E0200C3FBDB /* date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266133C2A485E0200C3FBDB /* date.swift */; };
 		426BBA542A489DD700EAEA7F /* NoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA532A489DD700EAEA7F /* NoteManager.swift */; };
 		426BBA572A489DFA00EAEA7F /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA562A489DFA00EAEA7F /* NoteModel.swift */; };
+		426BBA592A48B55800EAEA7F /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA582A48B55800EAEA7F /* FloatingActionButton.swift */; };
+		426BBA5B2A48B5B700EAEA7F /* NoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA5A2A48B5B700EAEA7F /* NoteScreen.swift */; };
+		426BBA5D2A48E58800EAEA7F /* NoteListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426BBA5C2A48E58800EAEA7F /* NoteListTile.swift */; };
 		4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */; };
 		4293CD9D2A44C7C50032A5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9C2A44C7C50032A5CB /* Assets.xcassets */; };
 		4293CDA02A44C7C50032A5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293CD9F2A44C7C50032A5CB /* Preview Assets.xcassets */; };
@@ -48,6 +51,9 @@
 		4266133C2A485E0200C3FBDB /* date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = date.swift; sourceTree = "<group>"; };
 		426BBA532A489DD700EAEA7F /* NoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteManager.swift; sourceTree = "<group>"; };
 		426BBA562A489DFA00EAEA7F /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		426BBA582A48B55800EAEA7F /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		426BBA5A2A48B5B700EAEA7F /* NoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteScreen.swift; sourceTree = "<group>"; };
+		426BBA5C2A48E58800EAEA7F /* NoteListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListTile.swift; sourceTree = "<group>"; };
 		4293CD952A44C7C30032A5CB /* onebagnoteapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onebagnoteapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4293CD982A44C7C30032A5CB /* onebagnoteappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onebagnoteappApp.swift; sourceTree = "<group>"; };
 		4293CD9C2A44C7C50032A5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 		4293CDC42A44C91E0032A5CB /* Note */ = {
 			isa = PBXGroup;
 			children = (
+				426BBA5A2A48B5B700EAEA7F /* NoteScreen.swift */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -197,6 +204,8 @@
 		4293CDC52A44C9260032A5CB /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				426BBA582A48B55800EAEA7F /* FloatingActionButton.swift */,
+				426BBA5C2A48E58800EAEA7F /* NoteListTile.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -368,6 +377,8 @@
 			files = (
 				4293CDD12A44CF4F0032A5CB /* SettingsScreen.swift in Sources */,
 				4293CDE92A44D3F50032A5CB /* SettingsManager.swift in Sources */,
+				426BBA5D2A48E58800EAEA7F /* NoteListTile.swift in Sources */,
+				426BBA5B2A48B5B700EAEA7F /* NoteScreen.swift in Sources */,
 				426613382A48506000C3FBDB /* localization.swift in Sources */,
 				426BBA542A489DD700EAEA7F /* NoteManager.swift in Sources */,
 				4266133D2A485E0200C3FBDB /* date.swift in Sources */,
@@ -375,6 +386,7 @@
 				4293CDC72A44C9550032A5CB /* HomeScreen.swift in Sources */,
 				4266133B2A4855B800C3FBDB /* AppState.swift in Sources */,
 				4293CD992A44C7C30032A5CB /* onebagnoteappApp.swift in Sources */,
+				426BBA592A48B55800EAEA7F /* FloatingActionButton.swift in Sources */,
 				4293CDE72A44D3700032A5CB /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

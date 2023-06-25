@@ -14,3 +14,9 @@
 "total_note" = "Note Count";
 "last_note_update" = "Last Note Update";
 "app_version" = "App Version";
+"enter_title" = "Title";
+"enter_message" = "Message";
+"title" = "Title";
+"message" = "Message";
+"edit" = "Edit";
+"done" = "Done";

@@ -11,7 +11,7 @@ extension Date{
     func getFormattedDate() -> String{
         let dateFormatter = DateFormatter()
         dateFormatter.locale = .getCustomLocale()
-        dateFormatter.dateFormat = "HH:MM, MMM d"
+        dateFormatter.dateFormat = "hh:mm a, MMM d"
         return dateFormatter.string(from: self)
     }
     
