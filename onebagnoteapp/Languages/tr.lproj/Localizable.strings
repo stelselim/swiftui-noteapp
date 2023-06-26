@@ -7,16 +7,16 @@
 */
 
 "notes" = "Notlar";
-"my_note" = "Notlarim";
+"my_note" = "Notlarım";
 "language" = "Dil Tercihlerim";
 "settings" = "Ayarlar";
 "font_size" = "Karakter Boyutu";
-"total_note" = "Toplam Not Sayisi";
-"last_note_update" = "Son Not Guncelleme";
-"app_version" = "Uygulama Surumu";
-"enter_title" = "Baslik";
-"enter_message" = "Icerik";
-"title" = "Baslik";
-"message" = "Icerik";
-"edit" = "Duzenle";
+"total_note" = "Toplam Not Sayısı";
+"last_note_update" = "Son Not Güncelleme";
+"app_version" = "Uygulama Sürümü";
+"enter_title" = "Başlık";
+"enter_message" = "İçerik";
+"title" = "Başlık";
+"message" = "İçerik";
+"edit" = "Düzenle";
 "done" = "Bitir";
